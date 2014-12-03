@@ -5,7 +5,7 @@ docker-jenkins
 
 2.- sudo docker pull ldurazo/jenkins
 
-3.- sudo docker inspect <container-id> | grep IPAddress
+3.- sudo docker inspect {container-id} | grep IPAddress
 
 4.- sudo docker run -i -t ldurazo/jenkins
 
@@ -16,3 +16,4 @@ docker-jenkins
 
 NOTE:
 Under construction, probably only localhosts will open this connection.
+Most of commands that needs the container id will work with the first four characters.
