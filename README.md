@@ -6,6 +6,7 @@ docker-jenkins
      sudo sh -c "echo deb http://get.docker.io/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
      sudo apt-get update
      sudo apt-get install lxc-docker
+     (Version should be 1.3 or up)
 
 2.- sudo docker pull ldurazo/jenkins
 
