@@ -13,9 +13,13 @@ docker-jenkins
      
      (Version should be 1.3 or up)
 
-2.- sudo docker pull ldurazo/jenkins
+2.- Pull the image from dockerhub
 
-3.- sudo docker run -i -t ldurazo/jenkins /bin/bash
+     sudo docker pull ldurazo/jenkins
+
+3.- Run the image, this will open the terminal as root user
+
+     sudo docker run -i -t ldurazo/jenkins /bin/bash
 
 4.- As root in container: 
      
@@ -24,11 +28,13 @@ docker-jenkins
 
 In another terminal...
 
-5.- sudo docker ps -a
-     
-     (this will list all the runing containers, grab the id for next step)
+5.- this will list all the runing containers, grab the id for next step
 
-6.- sudo docker inspect {container-id} | grep IPAddress
+     sudo docker ps -a
+     
+6.- Get the ip address of the running container
+     
+     sudo docker inspect {container-id} | grep IPAddress
 
 7.- with the IP obtained in docker open up port 8080 in your browser. (i.e. http://172.17.0.7:8080/)
 
