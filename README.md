@@ -44,3 +44,7 @@ Under construction, probably only localhosts will open this connection.
 Most of commands that needs the container id will work with the first four characters.
 
 please refer to the following docker hub repository: https://registry.hub.docker.com/u/ldurazo/jenkins/
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ldurazo/docker-jenkins/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
